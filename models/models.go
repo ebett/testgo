@@ -7,6 +7,6 @@ import (
 
 type Person struct { 
 	FirstName, LastName string
-	Dob time.Time Email, 
-	Location     string 
+	Dob time.Time 
+	Email, 	Location     string 
 }
