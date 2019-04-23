@@ -12,6 +12,6 @@ type Person struct {
 	Email, 	Location     string 
 }
 
-func (p Person){
+func (p Person) toString{
 	fmt.Printf("FirstName: %s, LastName: %s, DateOfBirth: %s", p.FirstName, p.LastName, p.Dob.String())
 }
